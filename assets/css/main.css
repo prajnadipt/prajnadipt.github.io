@@ -4008,7 +4008,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 3em 0 3em 0 ;   /*Anushka: changed the first number from 5em to 3em*/
+		padding: 5em 0 3em 0 ;   
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4024,20 +4024,6 @@ input, select, textarea {
 		margin: 0 auto;
 		width: 55em;
 	}
-
-		/*Anushka's edits begin*/
-		#footer .icons a {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
-			transition: opacity 0.2s ease-in-out;
-			opacity: 0.35;
-		}
-
-			#footer .icons a:hover {
-				opacity: 0.75;
-			}
-		/*Anushka's edits end*/
 
 		#footer .inner > * {
 			width: 100%;
